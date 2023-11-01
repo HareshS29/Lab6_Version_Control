@@ -36,5 +36,9 @@ if __name__ == '__main__':
             print(encode(password))
 
         elif user_input == '2':
-            encoded_password = input('Input password to decode')
+            encoded_password = input('Input password to decode: ')
             print(decode(encoded_password))
+
+        else:
+            print('Choose a correct number!')
+
